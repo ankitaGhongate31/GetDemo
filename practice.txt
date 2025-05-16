@@ -1,1 +1,202 @@
-This is frist program
+Static keyword
+1.
+when the varible method block declare static keyword that time thes members access two way
+
+1) using class refrance
+2) using object
+
+
+Example
+
+1) A.m1();
+
+A  a= new A();
+a.m1();
+
+
+
+
+2.when the call instace method varible that time we neet to compalsary to create object
+
+example
+A a=new A();
+
+
+
+
+
+
+constructr
+
+use of constructor: constructr it is use to initialize instance varible or non static varible of the class
+
+rule: constrctor name same as class name
+
+    :constructor no have any return type
+
+
+ type of constructor
+
+1 .parametrized (contructor have parameter is know as parametrrized)
+2.non parmetrized((contructor  dont have parameter is know as non parametrrized)
+
+
+ if java class have no constructo jvm  call default  constructor
+
+
+
+This keyword
+ this keyword is use to same class another constructor same class another methos same class globle varible
+
+
+Super keyword
+ Super keyword is use to parent class  constructor parent class  methos parent class  varible
+
+
+
+
+
+opps concept
+
+Inheritance
+
+is relationship 
+has relationship
+
+is relationship
+
+1) single level
+2) multi level
+3) multiple (not support)
+4) hirericle
+5) hybrid( not support)
+
+
+ the Parent and child class relationship is called inheritance
+
+ we can achive inheritace  using extend keyword
+
+ parent is super class child is sub class 
+
+ to use inheritance resublity of code
+
+
+
+
+Polimorpisam
+ 
+it mean one name many from
+resubility simple code understand easy
+
+
+1.complieTime
+2. run time 
+
+ 1.complieTime Polimorpisam
+
+method name same  but different parameter this calles as complie time  Polimorpisam  best example  method voreloding
+
+
+2. run time Polimorpisam
+
+child class is not satified parent class method implention thet time child class write own implention this call method overloding the example of  run time Polimorpisam is method ovrrriding
+
+
+Method Voerloding Best Example
+
+
+Println()  of PrintStream class
+
+Method Voerriding Best Example
+
+Equals() method String class
+
+
+
+
+Encapsulation
+
+
+warping and groupin data member and method is called encapsulation
+we can achive by making data member is private private is use to  data hiding
+ 
+why to use data member private
+because  outside person should not acess  internal data directly so we declaring data member is private
+
+
+
+Abstraction
+
+Abstraction is a process of handling implemetion detail showing only fucality to user we can use and apply functionality
+
+with their ensstional knowledge only
+we can achive abstraction by using Interface and abstract class
+
+Example ATM  Machine,AC
+
+
+Abstract Class
+
+Abstract class means partioal implemting class
+no one can create object of abstract class
+
+if any method is abstract that time we need to class abstract
+abstract class have constractr if abstract class no have constractor that time jvm will put default constructor
+ 
+abstract method ended with semi coloum 
+ex.public abstract void m1();
+
+
+
+
+
+Interface
+
+interface is a buch of rules and guidlined
+interface rafer for special type of class 
+interface can not create object
+declaration method allow inside 
+interface all varible public final static
+interface declare using interface keyword
+interface no constructor
+
+
+interface all method abstract and ened with semicloum
+
+using these intetface we can achive multiple inheritance
+
+
+class class=extends
+interface class= implements
+interface intreface=etends
+
+
+A abstract class
+B abstract class extends A
+
+c  java class extends B
+main class
+ B b =new B();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
